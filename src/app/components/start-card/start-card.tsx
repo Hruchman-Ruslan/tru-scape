@@ -22,7 +22,7 @@ export default function StartCard({ counter, label, type }: StartCardProps) {
           'pt-3 px-3 bg-gray-900 odd:text-purple-200 even:text-lime-200 text-right',
         type === StartCardType.Gradient && [
           styles.gradient,
-          'p-7 bg-purple-200 text-gray-900 txt-left',
+          'p-7 bg-purple-200 text-gray-900 text-left',
         ],
       )}
     >
