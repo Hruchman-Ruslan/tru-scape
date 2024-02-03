@@ -4,7 +4,7 @@ import Button from '@/app/components/button';
 import React from 'react';
 
 export interface ErrorComponentProps {
-  error?: Error;
+  error: Error;
   reset: () => void;
 }
 

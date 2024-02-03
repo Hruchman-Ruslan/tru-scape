@@ -7,7 +7,7 @@ export interface SummaryTableProps {
 
 export default function SummaryTable({ children, headers }: SummaryTableProps) {
   return (
-    <table>
+    <table className="table-auto w-full border-separate border-spacing-0">
       <thead>
         <tr>{headers}</tr>
       </thead>

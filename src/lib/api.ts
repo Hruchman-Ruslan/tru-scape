@@ -80,30 +80,30 @@ export const getSummaryCategories = () => {
   ]);
 };
 
-export const getSummaryCounties = () => {
+export const getSummaryCountries = () => {
   return Promise.resolve([
     {
-      categoryId: 1,
+      countryId: 1,
       countryTitle: 'Canada',
       count: 5,
     },
     {
-      categoryId: 2,
+      countryId: 2,
       countryTitle: 'USA',
       count: 37,
     },
     {
-      categoryId: 3,
+      countryId: 3,
       countryTitle: 'Italy',
       count: 22,
     },
     {
-      categoryId: 4,
+      countryId: 4,
       countryTitle: 'Ukraine',
       count: 53,
     },
     {
-      categoryId: 5,
+      countryId: 5,
       countryTitle: 'Spain',
       count: 5,
     },
