@@ -12,8 +12,13 @@ export default function AddPromotionButton({
   companyId,
 }: AddPromotionButtonProps) {
   const route = useRouter();
+
   return (
-    <Button onClick={() => route.push(`/companies/${companyId}/new-promotion`)}>
+    <Button
+      onClick={() =>
+        route.push(`/companies/${companyId}/new-promotion`, { scroll: false })
+      }
+    >
       Add promotion
     </Button>
   );
